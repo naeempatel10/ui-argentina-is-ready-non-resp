@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Archivo', sans-serif;
+}
+html{
+    font-family: 'Archivo', sans-serif;
+}
+.nav{
+    padding-top: 3em;
+}
+.navbar{
+    float: right;
+    text-align: right;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    padding-right: 25px;
+    vertical-align: middle;
+}
+.logo{
+    width: 70px;
+    padding-left: 25px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.btn-left{
+    background-color: #74acdf;
+    border-radius: 100px;
+    padding: 0.6em 1.75em;
+    display: block;
+    width: 280px;
+    margin-top: 30px;
+    text-align: center;
+}
+.btn-right{
+    background-color: #74acdf;
+    border-radius: 100px;
+    padding: 0.6em 1.75em;
+    display: block;
+    width: 280px;
+    margin-top: 30px;
+    text-align: center;
+}
+.landing-page{
+    background-image: url(../imgs/landing%20background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.landing-page-wrapper{
+    width: 90%;
+    margin: auto;
+}
+.landing-page-content a{
+    text-decoration: none;
+    color: white;
+}
+.landing-page-content{
+    margin: 400px auto 0 auto;
+    display: flex;
+}
+.content-left{
+    flex: 0 0 20%;
+}
+.content-right{
+    flex: 0 0 45%;
+}
+.iamready{
+    color: white;
+    text-align: center;
+}
+.iamready h1{
+    font-size: 25px;
+    text-align: center;
+}
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.typing {
+    display: inline;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 60px 0px;   
+}
